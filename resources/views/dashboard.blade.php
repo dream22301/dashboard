@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  @vite(['resources/css/app.css'])
+</head>
+
+<body>
+<div class="min-h-screen flex">
+  <aside class="min-w-48 shadow-2xl shadow-black bg-gray-800 text-white">
+    <div class="icon">
+      <img src="{{ asset('img/account.svg') }}" alt="img" class="w-20">
+    </div>
+  </aside>
+
+  <main class="flex-1">Content</main>
+</div>
+
+</body>
+</html>
