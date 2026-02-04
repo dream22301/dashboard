@@ -9,5 +9,5 @@
 }
 
 .icon {
-    @apply flex justify-center pt-4;
+    @apply w-16 m-3 bg-gray-900 border-2 rounded-4xl shadow-black shadow-[0_5px_10px_rgba(0,0,0,0.18)];
 }

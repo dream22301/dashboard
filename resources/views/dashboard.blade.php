@@ -9,20 +9,25 @@
 </head>
 
 <body>
-<div class="min-h-screen flex">
-  <aside class="min-w-48 shadow-2xl shadow-black bg-gray-800 text-white flex items-center flex-col gap-2">
-    <div class="icon">
-      <img src="{{ asset('img/account.svg') }}" alt="img" class="w-20">
-    </div>
-    <div class="bg-blend-difference bg-gray-500 w-38 border-black rounded-sm">
-      <label class="flex justify-center">User</label>
-    </div>
-  </aside>
+  <div class="grid grid-cols-[16rem_2fr] min-h-screen">
+    <aside class="bg-gray-500 grid grid-rows-[auto_1fr] h-full p-6 gap-12">
+      <div class="bg-amber-500 h-auto flex flex-rows items-center gap-8">
+        <img src="{{ asset('img/account.svg') }}" alt="account" class="icon">
+        <div class="">
+          <h3>User</h3>
+        </div>
+      </div>
+      <div class="bg-blue-600">
+        <div class="bg-gray-700 w-full h-16 ">
+          <p>test</p>
+        </div>
+      </div>
+      
+    </aside>
 
-  <main class="flex justify-center items-center w-full">
-    <h1>dashboard text (for now)</h1>
-  </main>
-</div>
-
+    <main class="flex items-center justify-center">
+      <h1>text</h1>
+    </main>
+  </div>
 </body>
 </html>
