@@ -11,7 +11,7 @@
 <body>
   <div class="grid grid-cols-[16rem_2fr] min-h-screen">
     <aside class="bg-gray-500 grid grid-rows-[auto_1fr] h-full p-6 gap-4">
-      <div class="bg-amber-500 h-auto flex flex-rows items-center gap-8">
+      <div class="bg-amber-500 h-auto flex flex-rows items-center">
         <img src="{{ asset('img/account.svg') }}" alt="account" class="icon">
         <div class="">
           <h3>User</h3>
