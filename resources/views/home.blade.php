@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('judul', 'Dashboard')
+@section('judul', 'HomePage')
 
 @section('content')
-<h1>ini dashboard</h1>
+<h1>Ini Home</h1>
 @endsection

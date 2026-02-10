@@ -18,10 +18,10 @@
         </div>
       </div>
       <div class="flex flex-col gap-2 items-center">
-        <a href="#" class="bg-gray-700 w-50 h-8 rounded-md flex items-center justify-center">
+        <a href="{{ route('halaman-utama') }}" class="bg-gray-700 w-50 h-8 rounded-md flex items-center justify-center">
           Home
         </a>
-        <a href="#" class="bg-gray-700 w-50 h-8 rounded-md flex items-center justify-center">
+        <a href="{{ route('dashboard-page') }}" class="bg-gray-700 w-50 h-8 rounded-md flex items-center justify-center">
           Dashboard
         </a>
         <a href="#" class="bg-gray-700 w-50 h-8 rounded-md flex items-center justify-center">
