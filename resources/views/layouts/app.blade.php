@@ -10,11 +10,11 @@
 
 <body>
   <div class="grid grid-cols-[16rem_2fr] min-h-screen">
-    <aside class="bg-gray-500 grid grid-rows-[auto_1fr] h-full p-6 gap-4">
-      <div class="bg-amber-500 h-auto flex flex-rows items-center">
-        <img src="{{ asset('img/account.svg') }}" alt="account" class="icon">
+    <aside class="bg-gray-500 grid grid-rows-[5rem_1fr] h-full p-6 gap-4">
+      <div class="bg-amber-500 h-full flex flex-rows items-center">
+        <img src="{{ asset('img/smkgo.svg') }}" alt="account" class="w-18">
         <div class="">
-          <h3>User</h3>
+          <h3>SMKN 1 Lumajang</h3>
         </div>
       </div>
       <div class="flex flex-col gap-2 items-center">
